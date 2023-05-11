@@ -9,7 +9,7 @@ Original file is located at
 
 import re
 
-with open("/content/drive/MyDrive/Dataset/emails&phone.txt","r") as file:
+with open("emails&phone.txt","r") as file:
     txt=file.read()
 
 print(txt)
